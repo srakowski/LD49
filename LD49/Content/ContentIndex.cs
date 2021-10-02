@@ -52,14 +52,12 @@ namespace LD49
 	}
 	public static class Texture2Ds
 	{
-		public const string dummy___Copy = "Texture2D/dummy - Copy";
-		public const string dummy = "Texture2D/dummy";
+		public const string tiles = "Texture2D/tiles";
 		public static Dictionary<string, Texture2D> LoadTexture2Ds(this ContentManager content)
 		{
 			return new Dictionary<string, Texture2D>
 			{
-				["Texture2D/dummy - Copy"] = content.Load<Texture2D>("Texture2D/dummy - Copy"),
-				["Texture2D/dummy"] = content.Load<Texture2D>("Texture2D/dummy"),
+				["Texture2D/tiles"] = content.Load<Texture2D>("Texture2D/tiles"),
 			};
 		}
 	}
